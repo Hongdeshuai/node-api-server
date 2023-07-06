@@ -1,0 +1,30 @@
+{
+    "name": "inmd",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "scripts": {
+        "build": "nodemon app.js",
+        "start": "node app.js",
+        "debug": "nodemon --debug-brk app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "extend": "^3.0.2",
+        "jsonwebtoken": "^8.3.0",
+        "mongoose": "^5.2.4",
+        "mongoose-timestamp": "^0.6.0",
+        "multer": "^1.3.1",
+        "nodemailer": "^4.6.8",
+        "nodemon": "^1.18.3",
+        "password-hash": "^1.2.2",
+        "request": "^2.88.0",
+        "tracer": "^0.9.1"
+    },
+    "repository": {}
+}
